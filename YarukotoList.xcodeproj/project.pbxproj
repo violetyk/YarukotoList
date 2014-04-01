@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		931CAF6518E031A200D44469 /* YarukotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 931CAF6418E031A200D44469 /* YarukotoTableViewCell.m */; };
+		933255D118E4298A008475C4 /* nanapi.png in Resources */ = {isa = PBXBuildFile; fileRef = 933255D018E4298A008475C4 /* nanapi.png */; };
+		9377971B18E526EC0043729D /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9377971A18E526EC0043729D /* AsyncImageView.m */; };
+		93D2832618D006830051B8B5 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D2832118D006830051B8B5 /* AddViewController.m */; };
+		93D2832718D006830051B8B5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D2832318D006830051B8B5 /* DetailViewController.m */; };
+		93D2832818D006830051B8B5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D2832518D006830051B8B5 /* MasterViewController.m */; };
+		93D4D5AC18C96FD90070E784 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D4D5AB18C96FD90070E784 /* Foundation.framework */; };
+		93D4D5AE18C96FD90070E784 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D4D5AD18C96FD90070E784 /* CoreGraphics.framework */; };
+		93D4D5B018C96FD90070E784 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D4D5AF18C96FD90070E784 /* UIKit.framework */; };
+		93D4D5B218C96FD90070E784 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D4D5B118C96FD90070E784 /* CoreData.framework */; };
+		93D4D5B818C96FD90070E784 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93D4D5B618C96FD90070E784 /* InfoPlist.strings */; };
+		93D4D5BA18C96FD90070E784 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D4D5B918C96FD90070E784 /* main.m */; };
+		93D4D5BE18C96FD90070E784 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D4D5BD18C96FD90070E784 /* AppDelegate.m */; };
+		93D4D5C118C96FD90070E784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D4D5BF18C96FD90070E784 /* Main.storyboard */; };
+		93D4D5C418C96FD90070E784 /* YarukotoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93D4D5C218C96FD90070E784 /* YarukotoList.xcdatamodeld */; };
+		93D4D5CC18C96FD90070E784 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D4D5CB18C96FD90070E784 /* Images.xcassets */; };
+		93D4D5D318C96FD90070E784 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D4D5D218C96FD90070E784 /* XCTest.framework */; };
+		93D4D5D418C96FD90070E784 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D4D5AB18C96FD90070E784 /* Foundation.framework */; };
+		93D4D5D518C96FD90070E784 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D4D5AF18C96FD90070E784 /* UIKit.framework */; };
+		93D4D5D618C96FD90070E784 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D4D5B118C96FD90070E784 /* CoreData.framework */; };
+		93D4D5DE18C96FD90070E784 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93D4D5DC18C96FD90070E784 /* InfoPlist.strings */; };
+		93D4D5E018C96FD90070E784 /* YarukotoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D4D5DF18C96FD90070E784 /* YarukotoListTests.m */; };
+		93D4D5EF18C977FB0070E784 /* Thing.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D4D5EE18C977FB0070E784 /* Thing.m */; };
+		93D4D5F218C977FB0070E784 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D4D5F118C977FB0070E784 /* Recipe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93D4D5D718C96FD90070E784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93D4D5A018C96FD90070E784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93D4D5A718C96FD90070E784;
+			remoteInfo = YarukotoList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		931CAF6318E031A200D44469 /* YarukotoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YarukotoTableViewCell.h; path = YarukotoList/Views/YarukotoTableViewCell.h; sourceTree = "<group>"; };
+		931CAF6418E031A200D44469 /* YarukotoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YarukotoTableViewCell.m; path = YarukotoList/Views/YarukotoTableViewCell.m; sourceTree = "<group>"; };
+		933255D018E4298A008475C4 /* nanapi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nanapi.png; sourceTree = "<group>"; };
+		9377971918E526EC0043729D /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncImageView.h; path = YarukotoList/Views/AsyncImageView.h; sourceTree = "<group>"; };
+		9377971A18E526EC0043729D /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncImageView.m; path = YarukotoList/Views/AsyncImageView.m; sourceTree = "<group>"; };
+		93D2832018D006830051B8B5 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddViewController.h; path = YarukotoList/Views/AddViewController.h; sourceTree = "<group>"; };
+		93D2832118D006830051B8B5 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddViewController.m; path = YarukotoList/Views/AddViewController.m; sourceTree = "<group>"; };
+		93D2832218D006830051B8B5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = YarukotoList/Views/DetailViewController.h; sourceTree = "<group>"; };
+		93D2832318D006830051B8B5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = YarukotoList/Views/DetailViewController.m; sourceTree = "<group>"; };
+		93D2832418D006830051B8B5 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = YarukotoList/Views/MasterViewController.h; sourceTree = "<group>"; };
+		93D2832518D006830051B8B5 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = YarukotoList/Views/MasterViewController.m; sourceTree = "<group>"; };
+		93D4D5A818C96FD90070E784 /* YarukotoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YarukotoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D4D5AB18C96FD90070E784 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93D4D5AD18C96FD90070E784 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93D4D5AF18C96FD90070E784 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93D4D5B118C96FD90070E784 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		93D4D5B518C96FD90070E784 /* YarukotoList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YarukotoList-Info.plist"; sourceTree = "<group>"; };
+		93D4D5B718C96FD90070E784 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93D4D5B918C96FD90070E784 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93D4D5BB18C96FD90070E784 /* YarukotoList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YarukotoList-Prefix.pch"; sourceTree = "<group>"; };
+		93D4D5BC18C96FD90070E784 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93D4D5BD18C96FD90070E784 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93D4D5C018C96FD90070E784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93D4D5C318C96FD90070E784 /* YarukotoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YarukotoList.xcdatamodel; sourceTree = "<group>"; };
+		93D4D5CB18C96FD90070E784 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93D4D5D118C96FD90070E784 /* YarukotoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YarukotoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D4D5D218C96FD90070E784 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		93D4D5DB18C96FD90070E784 /* YarukotoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YarukotoListTests-Info.plist"; sourceTree = "<group>"; };
+		93D4D5DD18C96FD90070E784 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93D4D5DF18C96FD90070E784 /* YarukotoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YarukotoListTests.m; sourceTree = "<group>"; };
+		93D4D5ED18C977FB0070E784 /* Thing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Thing.h; path = Models/Thing.h; sourceTree = "<group>"; };
+		93D4D5EE18C977FB0070E784 /* Thing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Thing.m; path = Models/Thing.m; sourceTree = "<group>"; };
+		93D4D5F018C977FB0070E784 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recipe.h; path = Models/Recipe.h; sourceTree = "<group>"; };
+		93D4D5F118C977FB0070E784 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Recipe.m; path = Models/Recipe.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93D4D5A518C96FD90070E784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D4D5AE18C96FD90070E784 /* CoreGraphics.framework in Frameworks */,
+				93D4D5B218C96FD90070E784 /* CoreData.framework in Frameworks */,
+				93D4D5B018C96FD90070E784 /* UIKit.framework in Frameworks */,
+				93D4D5AC18C96FD90070E784 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D4D5CE18C96FD90070E784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D4D5D318C96FD90070E784 /* XCTest.framework in Frameworks */,
+				93D4D5D618C96FD90070E784 /* CoreData.framework in Frameworks */,
+				93D4D5D518C96FD90070E784 /* UIKit.framework in Frameworks */,
+				93D4D5D418C96FD90070E784 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		932651C918CE942100A56D9E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				933255D018E4298A008475C4 /* nanapi.png */,
+				93D2832018D006830051B8B5 /* AddViewController.h */,
+				93D2832118D006830051B8B5 /* AddViewController.m */,
+				93D2832218D006830051B8B5 /* DetailViewController.h */,
+				93D2832318D006830051B8B5 /* DetailViewController.m */,
+				93D2832418D006830051B8B5 /* MasterViewController.h */,
+				93D2832518D006830051B8B5 /* MasterViewController.m */,
+				931CAF6318E031A200D44469 /* YarukotoTableViewCell.h */,
+				931CAF6418E031A200D44469 /* YarukotoTableViewCell.m */,
+				9377971918E526EC0043729D /* AsyncImageView.h */,
+				9377971A18E526EC0043729D /* AsyncImageView.m */,
+			);
+			name = Views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		93D4D59F18C96FD90070E784 = {
+			isa = PBXGroup;
+			children = (
+				93D4D5B318C96FD90070E784 /* YarukotoList */,
+				93D4D5D918C96FD90070E784 /* YarukotoListTests */,
+				93D4D5AA18C96FD90070E784 /* Frameworks */,
+				93D4D5A918C96FD90070E784 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93D4D5A918C96FD90070E784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93D4D5A818C96FD90070E784 /* YarukotoList.app */,
+				93D4D5D118C96FD90070E784 /* YarukotoListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93D4D5AA18C96FD90070E784 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93D4D5AB18C96FD90070E784 /* Foundation.framework */,
+				93D4D5AD18C96FD90070E784 /* CoreGraphics.framework */,
+				93D4D5AF18C96FD90070E784 /* UIKit.framework */,
+				93D4D5B118C96FD90070E784 /* CoreData.framework */,
+				93D4D5D218C96FD90070E784 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93D4D5B318C96FD90070E784 /* YarukotoList */ = {
+			isa = PBXGroup;
+			children = (
+				932651C918CE942100A56D9E /* Views */,
+				93D4D5E918C976AF0070E784 /* Models */,
+				93D4D5BC18C96FD90070E784 /* AppDelegate.h */,
+				93D4D5BD18C96FD90070E784 /* AppDelegate.m */,
+				93D4D5BF18C96FD90070E784 /* Main.storyboard */,
+				93D4D5CB18C96FD90070E784 /* Images.xcassets */,
+				93D4D5B418C96FD90070E784 /* Supporting Files */,
+			);
+			path = YarukotoList;
+			sourceTree = "<group>";
+		};
+		93D4D5B418C96FD90070E784 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93D4D5B518C96FD90070E784 /* YarukotoList-Info.plist */,
+				93D4D5B618C96FD90070E784 /* InfoPlist.strings */,
+				93D4D5B918C96FD90070E784 /* main.m */,
+				93D4D5BB18C96FD90070E784 /* YarukotoList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93D4D5D918C96FD90070E784 /* YarukotoListTests */ = {
+			isa = PBXGroup;
+			children = (
+				93D4D5DF18C96FD90070E784 /* YarukotoListTests.m */,
+				93D4D5DA18C96FD90070E784 /* Supporting Files */,
+			);
+			path = YarukotoListTests;
+			sourceTree = "<group>";
+		};
+		93D4D5DA18C96FD90070E784 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93D4D5DB18C96FD90070E784 /* YarukotoListTests-Info.plist */,
+				93D4D5DC18C96FD90070E784 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93D4D5E918C976AF0070E784 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93D4D5C218C96FD90070E784 /* YarukotoList.xcdatamodeld */,
+				93D4D5F018C977FB0070E784 /* Recipe.h */,
+				93D4D5F118C977FB0070E784 /* Recipe.m */,
+				93D4D5ED18C977FB0070E784 /* Thing.h */,
+				93D4D5EE18C977FB0070E784 /* Thing.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93D4D5A718C96FD90070E784 /* YarukotoList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D4D5E318C96FD90070E784 /* Build configuration list for PBXNativeTarget "YarukotoList" */;
+			buildPhases = (
+				93D4D5A418C96FD90070E784 /* Sources */,
+				93D4D5A518C96FD90070E784 /* Frameworks */,
+				93D4D5A618C96FD90070E784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YarukotoList;
+			productName = YarukotoList;
+			productReference = 93D4D5A818C96FD90070E784 /* YarukotoList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93D4D5D018C96FD90070E784 /* YarukotoListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D4D5E618C96FD90070E784 /* Build configuration list for PBXNativeTarget "YarukotoListTests" */;
+			buildPhases = (
+				93D4D5CD18C96FD90070E784 /* Sources */,
+				93D4D5CE18C96FD90070E784 /* Frameworks */,
+				93D4D5CF18C96FD90070E784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93D4D5D818C96FD90070E784 /* PBXTargetDependency */,
+			);
+			name = YarukotoListTests;
+			productName = YarukotoListTests;
+			productReference = 93D4D5D118C96FD90070E784 /* YarukotoListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93D4D5A018C96FD90070E784 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "nanapi Inc.";
+				TargetAttributes = {
+					93D4D5D018C96FD90070E784 = {
+						TestTargetID = 93D4D5A718C96FD90070E784;
+					};
+				};
+			};
+			buildConfigurationList = 93D4D5A318C96FD90070E784 /* Build configuration list for PBXProject "YarukotoList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93D4D59F18C96FD90070E784;
+			productRefGroup = 93D4D5A918C96FD90070E784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93D4D5A718C96FD90070E784 /* YarukotoList */,
+				93D4D5D018C96FD90070E784 /* YarukotoListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93D4D5A618C96FD90070E784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933255D118E4298A008475C4 /* nanapi.png in Resources */,
+				93D4D5CC18C96FD90070E784 /* Images.xcassets in Resources */,
+				93D4D5B818C96FD90070E784 /* InfoPlist.strings in Resources */,
+				93D4D5C118C96FD90070E784 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D4D5CF18C96FD90070E784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D4D5DE18C96FD90070E784 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93D4D5A418C96FD90070E784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D4D5EF18C977FB0070E784 /* Thing.m in Sources */,
+				9377971B18E526EC0043729D /* AsyncImageView.m in Sources */,
+				93D4D5F218C977FB0070E784 /* Recipe.m in Sources */,
+				931CAF6518E031A200D44469 /* YarukotoTableViewCell.m in Sources */,
+				93D2832618D006830051B8B5 /* AddViewController.m in Sources */,
+				93D4D5C418C96FD90070E784 /* YarukotoList.xcdatamodeld in Sources */,
+				93D2832818D006830051B8B5 /* MasterViewController.m in Sources */,
+				93D4D5BE18C96FD90070E784 /* AppDelegate.m in Sources */,
+				93D4D5BA18C96FD90070E784 /* main.m in Sources */,
+				93D2832718D006830051B8B5 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D4D5CD18C96FD90070E784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D4D5E018C96FD90070E784 /* YarukotoListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93D4D5D818C96FD90070E784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93D4D5A718C96FD90070E784 /* YarukotoList */;
+			targetProxy = 93D4D5D718C96FD90070E784 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93D4D5B618C96FD90070E784 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93D4D5B718C96FD90070E784 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93D4D5BF18C96FD90070E784 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93D4D5C018C96FD90070E784 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93D4D5DC18C96FD90070E784 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93D4D5DD18C96FD90070E784 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93D4D5E118C96FD90070E784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93D4D5E218C96FD90070E784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93D4D5E418C96FD90070E784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YarukotoList/YarukotoList-Prefix.pch";
+				INFOPLIST_FILE = "YarukotoList/YarukotoList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93D4D5E518C96FD90070E784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YarukotoList/YarukotoList-Prefix.pch";
+				INFOPLIST_FILE = "YarukotoList/YarukotoList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		93D4D5E718C96FD90070E784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YarukotoList.app/YarukotoList";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YarukotoList/YarukotoList-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YarukotoListTests/YarukotoListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		93D4D5E818C96FD90070E784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YarukotoList.app/YarukotoList";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YarukotoList/YarukotoList-Prefix.pch";
+				INFOPLIST_FILE = "YarukotoListTests/YarukotoListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93D4D5A318C96FD90070E784 /* Build configuration list for PBXProject "YarukotoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D4D5E118C96FD90070E784 /* Debug */,
+				93D4D5E218C96FD90070E784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D4D5E318C96FD90070E784 /* Build configuration list for PBXNativeTarget "YarukotoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D4D5E418C96FD90070E784 /* Debug */,
+				93D4D5E518C96FD90070E784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D4D5E618C96FD90070E784 /* Build configuration list for PBXNativeTarget "YarukotoListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D4D5E718C96FD90070E784 /* Debug */,
+				93D4D5E818C96FD90070E784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93D4D5C218C96FD90070E784 /* YarukotoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93D4D5C318C96FD90070E784 /* YarukotoList.xcdatamodel */,
+			);
+			currentVersion = 93D4D5C318C96FD90070E784 /* YarukotoList.xcdatamodel */;
+			path = YarukotoList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 93D4D5A018C96FD90070E784 /* Project object */;
+}
